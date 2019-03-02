@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head><b>Formular-comanda</b>
+
+<title>Formular-comanda</title>
+</head>
+
+<body>
+    <form>
+            <label for=" Nume:"> Nume* </label>
+            <input type="text" name="nume">
+    <br>
+            <label for="Prenume">Prenume*</label>
+            <input type="text" name="prenume" required placeholder="">
+     <br>       
+            <label for="CNP">CNP*</label>
+            <input type="number" name="CNP"
+            maxlength="13">
+     <br>
+            <label for="sex">Sex</label>
+     <br>
+             <input type="radio" name="sex" value="feminin">feminin<br>
+             <input type="radio" name="sex" value="masculin">masculin<br>
+
+             <label for="numar">Numar telefon</label>
+             <input type="number" name="numar"
+             > 
+      <br>
+            <label for="card">Doriti sa platiti cu cardul?</label>
+      <br>
+                <input type="checkbox" name="card" value="card" checked>da<br>
+                <input type="checkbox" name="card" value="card">nu<br>  
+                <br>           
+            <label for="data">Data</label>
+            <input type="date" id="data" name="start here"
+                  value="2019-02-28"><br>
+
+
+            <label for="numar card">Numar Card</label>
+            <input type="number" name="numar card"
+                  maxlength="16"><br>
+
+            <label for="adresa">Adresa*</label>
+            <input type="text" name="adresa" required placeholder=""><br>
+
+            <label for="oras">Oras*</label>
+            <select name="oras">
+                    <option value="Iasi">Iasi</option>
+                    <option value="Botosani">Botosani</option>
+                    <option value="Bacau">Bacau</option>
+                    <option value="Vaslui">Vaslui</option>
+                  </select>
+
+                  <br> <br>
+
+
+            <label for="textarea">Aveti observatii</label>
+            <textarea maxlength="10"></textarea><br><br>
+
+            <input type="submit" value="Trimiteti!"> 
+    </form>
+
+</body>
+
+</html>

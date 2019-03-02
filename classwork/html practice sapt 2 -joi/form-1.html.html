@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulare/forms</title>
+</head>
+
+<body>
+
+    <form>
+      <label for=" Nume:"> Nume* </label>
+        <input type="text" name="nume">
+<br>
+        <label for="Prenume">Prenume*</label>
+        <input type="text" name="prenume" required placeholder="">
+ <br>       
+
+        <label for="Varsta">Varsta*</label>
+        <input type="number" name="varsta"
+        min="18" max="100" required>
+<br>       
+<br>
+
+    <label for="experienta">Ani experinta</label>
+        <input type="range"
+                value="ani experienta"
+                name="experienta"
+                min="1"
+                max="30">
+<br>
+        <label for="start">Start date</label>
+
+        <input type="date" id="start" name="start here"
+            value="2019-02-28"
+            min="1990-01-01"
+            max="2019-02-28">
+
+        <input type="week" id="week" name="start here"
+            value="2019-02-28"
+            min="1990-01-01"
+            max="2019-02-28">
+<br>
+            <label for="name">Ce limbaj de programare?</label>
+<br>
+            <input type="checkbox" name="java" value="java">java<br>
+            <input type="checkbox" name=".net" value=".net">.net<br>
+            <input type="checkbox" name="pyton" value="pyton" checked>pyton <br>
+
+            <label for="radio">Ce limbaj de programare?</label>
+            <br>
+                        <input type="radio" name="java" value="java">java<br>
+                        <input type="radio" name=".net" value=".net">.net<br>
+                        <input type="radio" name="pyton" value="pyton" >pyton <br><br>
+
+
+        <input type="submit" value="Apasa aici!"> 
+
+    </form>
+
+</body>
+
+</html>
