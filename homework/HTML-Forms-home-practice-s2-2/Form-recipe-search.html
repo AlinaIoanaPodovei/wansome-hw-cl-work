@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipe search</title>
+</head>
+<body>
+
+<h1>Recipe  search formular</h1>
+<label for="search">Search for: </label><br>
+<input type="search" name="search"placeholder="chocolate recipe" >
+<button type="submit" value="search">Search</button><br>
+
+<label for="match">Match: </label>
+<input type="radio" name="match" value="any word">Any word
+<input type="radio" name="match" value="all words" checked>All words
+<input type="radio" name="match" value="exact phrase">Exact phrase<br>
+
+<input type="checkbox" name="match" value="sound-alike" checked> Sound-alike matching<br>
+
+<label for="dated">Dated: </label>
+<input type="radio" name="dated" >
+<select name="options">
+        <option value="Within the last year" >Within the last year</option>
+        <option value="Within the last 6 month">Within the last 6 month</option>
+        <option value="Within the last week">Within the last week</option>
+      </select><br>
+
+      <!--la aceasta cerinta nu sut sigura daca acolo ar trebui sa pun un input cu date, sau e o lista de fapt.. -->
+      <input type="radio" name="dated2" >
+      <label for="from">From: </label>
+
+      <input type="date" id="start" name="start here"
+          value="2000-01-01"
+          min="1990-01-01">
+
+      <input type="week" id="week" name="start here"
+          value="2000-01-01"
+          min="1990-01-01"> <br>
+
+
+      <label for="to">To: </label>
+      <input type="date" id="start" name="start here"
+      value="2019-03-04"
+      min="1990-01-01">
+
+        <input type="week" id="week" name="start here"
+      value="2019-03-04"
+      min="1990-01-01"> <br>
+
+      <label for="within">Within: </label>
+      <select name="within">
+            <option value="Description" >Description</option>
+            <option value="No description" >No description</option>
+        </select><br>
+
+      <label for="sort">Sort by: </label>
+      
+      <select name="sort">
+            <option value="relevance" >Description</option>
+            <option value="date" >date</option>
+            <option value="name" >name</option>
+        </select><br>
+
+<br>
+</body>
+</html>
