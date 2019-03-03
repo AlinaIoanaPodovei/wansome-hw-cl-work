@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travel reservation</title>
+</head>
+<body>
+
+<h1>Travel reservation form</h1>
+
+<h3>*denotes mandatory</h3>
+
+<form>
+    <label for="name"> Full name*: </label><br>
+    <input type="text" name="name"required placeholder="FirstName LastName">
+    <br> 
+    <label for="email">Email address*:</label><br>
+    <input type="email" name="email"required placeholder="EMAIL_ADRESS">
+    <br>
+    <label for="tour">Select Tour Package*:</label><br>
+
+            <select name="tour" required>
+                    <option value="Romania">Romania</option>
+                    <option value="Italy">Italy</option>
+                    <option value="France">France</option>
+                    <option value="Spain">Spain</option>
+            </select><br>
+
+    <label for="date">Arrivel date*:</label><br>
+    <input type="date" id="date" name="date" required><br>
+
+    <label for="persons"> Number of persons*: </label><br>
+    <input type="number" name="persons"placeholder="UNKNOWN_TYPE"required>
+    <br>
+    <label for="avail">What would you want to avail?*</label>
+    <br>
+        <input name="avail" value="boarding"  type="checkbox" >Boarding<br>
+        <input type="checkbox" name="avail" value="fooding">Fooding<br> 
+        <input type="checkbox" name="avail" value="sigt seeing">Sight seeing  
+     <br> 
+     <label for="discount"> Discount Cupon code: </label><br>
+     <input type="text" name="persons"placeholder="UNKNOWN_TYPE">
+     <br>
+     <label for="terms">terms and conditions*</label><br>
+        <input type="radio" name="terms" value="agree" checked>I agree
+        <input type="radio" name="terms" value="disagree">I disagree<br> 
+        
+    <button type="submit" value="submit">Complete reservation</button>  
+                <br>  
+                  <br>
+
+</body>
+</html>
