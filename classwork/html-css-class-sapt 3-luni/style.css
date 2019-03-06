@@ -1,0 +1,44 @@
+#title-font{
+    color: red;
+    
+}
+#link1{
+    color:blue;
+
+
+}
+#link2{
+    color:yellow;
+  
+}
+
+
+a[href*="tube"]{
+    color: brown;
+  
+}
+a[href*="google"]{
+    color:green;
+}
+body{
+    font-family: 'Srisakdi', cursive;
+}
+
+a:hover { 
+    color:#f142f4  }
+
+    .title-color :first-child{
+    color: #1f8082;
+}
+
+.elemente :nth-child(3){
+    color: #4ce869;
+}
+
+
+#title-font ~p {
+    color: green;
+}
+h1+p{
+    color: lightpink
+}
