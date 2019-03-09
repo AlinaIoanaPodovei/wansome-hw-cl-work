@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a[href*="test"]{
+    color:red;
+}
+
+.t1,.t2,.t4  {
+    border: 1px solid black;
+}
+
+
+.t1 a {
+    color: green;
+}
+.t2 a {
+    color: green;
+}
+.t4 a {
+    color: green;
+}
+    
+#t3  {
+    border: 1px solid black;
+}
+
+#t3 a{
+    color: #cc5555;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Indie Flower', cursive;
+}
