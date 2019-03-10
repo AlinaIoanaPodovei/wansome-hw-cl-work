@@ -1,0 +1,71 @@
+ul {
+    color: green;
+}
+
+ul :nth-child(3){ background-color:#42ebf4;
+}
+ul :first-child{
+    border-top-style: solid ;
+    border-top-width: 1px;
+    border-top-color: green;
+}
+
+ul :last-child{
+    border-bottom-style: dotted;
+    border-bottom-width: 5px;
+    border-bottom-color: blue;
+}
+
+li:nth-child(3) a {color: red;
+}
+li:nth-child(5) a {color: red;
+}
+
+li:nth-child(5) a:hover {color:grey;
+}
+
+li:nth-child(2){
+     list-style-type: none; 
+}
+li:nth-child(5){
+    list-style-type: none; 
+}
+
+input[type=text]:focus{
+    background-color: grey;
+}
+
+input[type=text]{
+    color: green;
+}
+
+/*am reusit sa fac culoarea albastra pt cel de-al doilea div, dar cu o clasa declarata
+
+input[type=text]:nth-child(2){
+    color: blue;
+
+input:not(2)[type=text]{
+    color:green;
+}
+ nu ~, nu ::after...
+input~input[type=text]
+{
+    color: blue;
+}
+*/
+input[type=password]{
+   color: transparent; 
+}
+
+input[type=email]{
+    background-color: yellow;
+    color: pink;
+}
+
+input[type=submit]:hover{
+    color: red;
+}
+
+/*nu arata asa grozav, mai ales la primele cerinte..insa, am prins idee in mare */
+
+
