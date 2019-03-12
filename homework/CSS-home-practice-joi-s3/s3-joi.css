@@ -1,0 +1,32 @@
+div{
+    border: solid rgb(169, 228, 169);
+
+}
+
+.container{
+    position: fixed ;
+    border: solid rgb(247, 122, 142);
+    color: rgb(247, 122, 142);
+    list-style: none;
+    padding: 10px;
+}
+li::before{content: "\2022";   
+    color: black;
+}
+
+#s1, #s2, #s3 {
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    border: solid rgb(255, 217, 0);
+    left: 100px;
+    padding: 15px;
+    
+}
+
+#s2{
+    background-color: rgb(211, 218, 221);
+}
+
+footer{
+    text-align: center;
+}
