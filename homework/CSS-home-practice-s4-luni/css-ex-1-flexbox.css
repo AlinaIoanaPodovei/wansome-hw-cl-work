@@ -1,0 +1,54 @@
+body {
+    background-color:#c0f9f4;
+}
+
+.header, .footer {
+    background-color: #a0f7a0;
+    height: 70px;
+    border: solid #14a814 1px;
+    text-align: center;
+    padding: 10px;   
+}
+
+.container{
+    background-color: #a0f7a0;
+    background:  rgba(160, 247, 160, 0.3);
+    display: flex;
+   justify-content: space-around;  
+}
+
+.img1 {
+    background: url("http://midwestmla.org/midline/spring.jpg");
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2 {
+    background: url("https://www.surfgirlmag.com/wp-content/uploads/2017/03/Hello-Spring-933x640.jpg");
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.img3 {
+    background: url("https://cdn.images.express.co.uk/img/dynamic/130/590x/first-day-of-spring-934095.jpg");
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+
+div p {
+    color: black;
+    background-color:  #a0f7a0;
+    opacity: 0.6;
+    padding: 10px;
+    border: solid #14a814 1px;
+   
+}
