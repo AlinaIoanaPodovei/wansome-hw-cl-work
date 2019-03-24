@@ -1,0 +1,20 @@
+@mixin buttona {
+    a{
+        background-color: blue;
+        color: white;
+        radius: 3px;
+        margin: 2px;
+
+        &:hover {
+            color: red;
+        }
+        &:visited {
+            color: green;
+        }
+    } 
+}
+
+@include buttona();
+.menu-button{
+    @include buttona;
+}

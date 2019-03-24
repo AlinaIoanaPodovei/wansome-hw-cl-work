@@ -1,0 +1,11 @@
+div{
+    background: url("https://img.freepik.com/free-vector/cute-animal-doing-dabbing_23-2147847948.jpg?size=338&ext=jpg")
+     no-repeat;
+    border:15px dotted red;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+}
+body {
+    background-color: aquamarine;
+}

@@ -1,0 +1,30 @@
+.menu-button a {
+  background-color: blue;
+  color: white;
+  radius: 3px;
+  margin: 2px;
+}
+
+.menu-button a:hover {
+  color: red;
+}
+
+.menu-button a:visited {
+  color: green;
+}
+
+.text-button a {
+  background-color: yellow;
+  color: white;
+  radius: 3px;
+  margin: 2px;
+}
+
+.text-button a:hover {
+  color: black;
+}
+
+.text-button a:visited {
+  color: grey;
+}
+/*# sourceMappingURL=button-a.css.map */

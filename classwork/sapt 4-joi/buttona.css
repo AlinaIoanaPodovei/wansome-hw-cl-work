@@ -1,0 +1,30 @@
+a {
+  background-color: blue;
+  color: white;
+  radius: 3px;
+  margin: 2px;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+.menu-button a {
+  background-color: blue;
+  color: white;
+  radius: 3px;
+  margin: 2px;
+}
+
+.menu-button a:hover {
+  color: red;
+}
+
+.menu-button a:visited {
+  color: green;
+}
+/*# sourceMappingURL=buttona.css.map */

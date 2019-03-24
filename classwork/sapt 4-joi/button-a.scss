@@ -1,0 +1,22 @@
+@mixin button-a($base, $hover, $link) {
+    a{
+        background-color: $base;
+        color: white;
+        radius: 3px;
+        margin: 2px;
+
+        &:hover{
+            color: $hover;
+        }
+        &:visited{
+            color: $link;
+        }
+    }
+}
+
+.menu-button{
+    @include button-a(blue, red,green);
+}
+.text-button{
+    @include button-a(yellow, black, grey);
+}
