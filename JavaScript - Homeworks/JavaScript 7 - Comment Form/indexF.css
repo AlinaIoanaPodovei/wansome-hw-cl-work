@@ -1,0 +1,16 @@
+#form {
+    margin: auto;
+    width: 350px;
+    padding: 10px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#text1 {
+display: none;
+}
+
