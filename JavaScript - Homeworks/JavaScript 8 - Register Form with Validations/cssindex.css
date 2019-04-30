@@ -1,0 +1,23 @@
+#form {
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#next {
+    padding: 5px;
+    background-color: rgb(59, 55, 55);
+    color:white;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+
+.error {
+    color: red;
+}

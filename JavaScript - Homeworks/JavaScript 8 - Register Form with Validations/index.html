@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>FormValidation</title>
+    <link rel="stylesheet" rel="text/css" href="cssindex.css">
+    
+</head>
+
+<body>
+<h1>Get your own site 42 Sites account in seconds</h1>
+
+<form id="form" name="form" action="submit.html" method="POST" onsubmit="return validateForm()">
+    <label for="username">USERNAME:</label><br>
+    <p>(Must be at least 4 characters, letters and numbers only.)</p>
+    <input type="text" id="username">
+    <p class="error"></p>
+
+    <label for="email">EMAIL ADRESS:</label><br>
+    <p>We send your registration email to this address.(Double-check your email 
+      address before continuing.)</p>
+    <input type="text" id="mail">
+    <p class="error"></p>
+
+    <label for="fname">FIRST NAME:</label><br>
+    <p>(Must be input.)</p>
+    <input type="text" id="fname">
+    <p class="error"></p>
+
+  
+    <label for="lname">LAST NAME:</label><br>
+    <p>(Must be input.)</p>
+    <input type="text" id="lname">
+    <p class="error"></p>
+    
+
+    <label for="nickname">NICKNAME:</label><br>
+    <input type="text" id="nickname"><br>
+    <p class="error"></p>
+
+    <label for="phone">PHONE:</label><br>
+    <p>(Must be at least 10 characters, numbers only.)</p>
+    <input type="number" id="phone">
+    <p class="error"></p>
+
+    <input type="radio" checked><label>GIMME A SITE!</label><br>
+    <input type="radio"><label>JUST A USERNAME, PLEASE.</label><br>
+
+    <button type="submit" id="next">NEXT</button>
+
+</form>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+
+</html>
