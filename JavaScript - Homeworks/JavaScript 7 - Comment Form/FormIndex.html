@@ -6,12 +6,13 @@
 
 <body>
     <h1>Comment form</h1>
-<form id="form" name="form" method="POST" action="">
+<form id="form" name="form">
 
     <label for="check">I have additional observations</label><br>
     <input type="checkbox" id="check" name="check" onclick="showTextarea();" value="1"><br>
     <textarea id="text1" placeholder="160 characters maximum"></textarea><br>
-    
+    <p id="error">limit is 160 characters</p>
+
     <button type="submit" id="submit">Send feedback </button><br>
     
 </form>
